@@ -7,6 +7,43 @@
   pointer-events: none;
 }
 
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card img { max-width: 100%;
+  height: auto;}
+.card-content { flex: 1;}
+
+h2 {font-size: 24px; 
+margin: 8px 0;}
+
+p { font-size: 16px;
+  margin: 8px 0;}
+
+a.details-button {
+  background-color:lightblue;
+  color: lightyellow;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/**
+@media screen and (max-width: 800px) { a.details-button {display: inline-block;}
+}
+
+@media screen and (max-width: 500px) {
+  .card { max-width: 300px;}
+  h2 {font-size: 20px;}
+  p { font-size: 14px; }
+}**/
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
