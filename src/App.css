@@ -34,7 +34,7 @@ a.details-button {
   text-decoration: none;
   border-radius: 4px;
 }
-/**
+
 @media screen and (max-width: 800px) { a.details-button {display: inline-block;}
 }
 
@@ -42,7 +42,7 @@ a.details-button {
   .card { max-width: 300px;}
   h2 {font-size: 20px;}
   p { font-size: 14px; }
-}**/
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
